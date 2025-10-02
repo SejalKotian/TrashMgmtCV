@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['cardboard', 'foam', 'glass', 'metal', 'other', 'paper', 'plastic']
+
+roboflow:
+  workspace: cis5810trashmgmtproject
+  project: trash-segregation-sysrem-jwiwo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cis5810trashmgmtproject/trash-segregation-sysrem-jwiwo/dataset/1
